@@ -7,7 +7,7 @@ export default function Home () {
         <div className='flex items-center space-x-4'>
           <img
             src='https://images.unsplash.com/photo-1439402702863-6434b61e6392'
-            className='rounded-full w-16 h-16 bg-cover'
+            className='rounded-full w-16 h-16 bg-cover border-success-500 border-4 '
             alt='profile image'
           />
 
