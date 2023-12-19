@@ -1,7 +1,26 @@
-export default function Home() {
+import { CalendarDays, Heart, MessageCircleMore } from 'lucide-react'
+
+export default function Home () {
   return (
-    <div >
-      <h1 className='font-bold leading-heading'>Hello World</h1>
+    <div className='px-4 py-8 bg-gradient-to-br from-primary-200 to-primary-50 h-screen'>
+      <header className='flex items-center justify-between'>
+        <div className='flex items-center space-x-4'>
+          <img
+            src='https://images.unsplash.com/photo-1439402702863-6434b61e6392'
+            className='rounded-full w-16 h-16 bg-cover'
+            alt='profile image'
+          />
+
+          <CalendarDays size={32} className='text-primary-300' />
+        </div>
+
+        <div className='flex space-x-8'>
+          <Heart size={32} className='text-primary-300' />
+
+          <MessageCircleMore size={32} className='text-primary-300' />
+        </div>
+      </header>
+      <main></main>
     </div>
   )
 }
