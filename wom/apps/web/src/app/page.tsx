@@ -2,7 +2,7 @@ import { CalendarDays, Heart, MessageCircleMore } from 'lucide-react'
 
 export default function Home () {
   return (
-    <div className='px-4 py-8 bg-gradient-to-br from-primary-200 to-primary-50 h-screen'>
+    <div className='px-4 py-8 h-screen'>
       <header className='flex items-center justify-between'>
         <div className='flex items-center space-x-4'>
           <img
@@ -20,7 +20,10 @@ export default function Home () {
           <MessageCircleMore size={32} className='text-primary-300' />
         </div>
       </header>
-      <main></main>
+
+      <main>
+        
+      </main>
     </div>
   )
 }
