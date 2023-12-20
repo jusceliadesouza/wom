@@ -20,7 +20,7 @@ export const fonts = {
     // heading: 'Inter, sans-serif',
   },
   lineHeights: {
-    heading: '1.5',
-    body: '1.25',
+    heading: '1.25',
+    body: '1.6',
   },
 }
