@@ -7,7 +7,8 @@ import {
   CircleUserRound,
   PlusSquare,
   Search,
-  UserRound
+  UserRound,
+  ArrowRight
 } from 'lucide-react'
 
 import Capa from '../assets/capa.jpg'
@@ -181,7 +182,59 @@ export default function Home () {
             </div>
           </section>
 
-          <section className='flex justify-start'></section>
+          <section className='flex justify-start'>
+            <div className='flex-col space-y-4'>
+              <h4 className='font-semibold text-body'>Events</h4>
+
+              <div className='flex gap-2'>
+                <div className='flex w-[252px] h-[152px] items-center p-3 pr-2 gap-4 bg-secondary-200 rounded-md'>
+                  <div className='flex-col space-y-1'>
+                    <h4 className='font-semibold text-body'>
+                      Mentoring with Ana Luiza Souza
+                    </h4>
+
+                    <p className='text-caption'>
+                      How to edit you LinkedIn, resume and build your portfolio
+                    </p>
+
+                    <div className='flex items-center gap-2'>
+                      <span className='text-caption'>See more</span>
+                      <ArrowRight size={24} className='text-primary-300' />
+                    </div>
+                  </div>
+
+                  <img
+                    src='https://source.unsplash.com/random/?woman'
+                    className='rounded-md h-[136px] w-[68px] bg-cover bg-center'
+                    alt='image'
+                  />
+                </div>
+                
+                <div className='flex w-[252px] h-[152px] items-center p-3 pr-2 gap-4 bg-secondary-200 rounded-md'>
+                  <div className='flex-col space-y-1'>
+                    <h4 className='font-semibold text-body'>
+                      Mentoring with Ana Luiza Souza
+                    </h4>
+
+                    <p className='text-caption'>
+                      How to edit you LinkedIn, resume and build your portfolio
+                    </p>
+
+                    <div className='flex items-center gap-2'>
+                      <span className='text-caption'>See more</span>
+                      <ArrowRight size={24} className='text-primary-300' />
+                    </div>
+                  </div>
+
+                  <img
+                    src='https://source.unsplash.com/random/?woman'
+                    className='rounded-md h-[136px] w-[68px] bg-cover bg-center'
+                    alt='image'
+                  />
+                </div>                
+              </div>
+            </div>
+          </section>
 
           <section className='flex justify-start'></section>
         </main>
