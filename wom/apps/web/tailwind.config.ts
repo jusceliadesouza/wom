@@ -8,16 +8,21 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
+    backgroundImage: theme => ({
+      gradient:
+        'linear-gradient(90deg, #ff87af 0%, #ff87af 30%, #ff87af 50%, #ff87af 100%)',
+      'gradient-text': 'linear-gradient(45deg, #ff87af,#ffda5f )'
+    }),
     colors,
     borderRadius: radii,
     spacing,
-    
+
     fontWeight: fonts.fontsWeights,
     fontFamily: {
-      sans: fonts.fontsFamilies.default,
+      sans: fonts.fontsFamilies.default
     },
     fontSize: fonts.fontsSizes,
-    lineHeight: fonts.lineHeights,
+    lineHeight: fonts.lineHeights
   },
   plugins: []
 }
